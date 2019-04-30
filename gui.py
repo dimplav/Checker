@@ -13,11 +13,11 @@ check_button = Button(root, text="Check for changes...", command=lambda: [ispisi
 label = Label(root, text="Web page has some changes")
 label1 = Label(root, text="Web page has no changes")
 disconnect_button = Button(root, width=10, text="Stop", command=nit1)
-exit_button = Button(root, width=10, text="Exit", command=sys.exit)
+#exit_button = Button(root, width=10, text="Exit", command=sys.exit)
 inputs = Entry(root, width=80)
 inputs.pack()
 check_button.pack()
-exit_button.pack(side=RIGHT)
+#exit_button.pack(side=RIGHT)
 disconnect_button.pack(side=LEFT)
 
 def ispisi():
