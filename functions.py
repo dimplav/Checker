@@ -1,7 +1,6 @@
 import connection
 from apscheduler.schedulers.blocking import BlockingScheduler
 import threading
-import sys
 string1 = ""
 string2 = ""
 changed = False
@@ -47,4 +46,12 @@ def nit():
 
 def nit1():
     t2.start()
+
+
+def links():
+    print("link")
+    connection.tag = 'a'
+def images():
+    print("images")
+    connection.tag = 'img'
 
